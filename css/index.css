@@ -155,20 +155,22 @@ body {
 }
 .producto:hover {
   border-color: rgb(31, 173, 18);
-  width: 280px;
+  transform: scale(1.08);
 }
 .titulo-producto {
   font-size: 20px;
 }
 .img-producto {
+  margin: 10px;
   width: 85%;
   transition: 1s;
 }
 .img-producto:hover {
-  width: 90%;
+  transform: scale(1.08);
 }
 .comprar {
   font-size: 13px;
+  margin: 10px;
   background-color: black;
   color: white;
   width: 100px;
@@ -178,9 +180,8 @@ body {
   transition: 1s;
 }
 .comprar:hover {
-  font-size: 18px;
-  width: 110px;
-  height: 35px;
+  font-size: 15px;
+  transform: scale(1.1);
   border-color: rgb(21, 255, 0);
 }
 
@@ -269,31 +270,14 @@ body {
   }
 }
 .logo-red:hover {
-  width: 230px;
-  height: 230px;
-}
-@media (max-width: 1200px) {
-  .logo-red:hover {
-    width: 200px;
-    height: 200px;
-  }
-}
-@media (max-width: 576px) {
-  .logo-red:hover {
-    width: 180px;
-    height: 180px;
-  }
-}
-.nombre-red {
-  font-size: 30px;
+  transform: scale(1.05);
   transition: 1s;
 }
-@media (max-width: 576px) {
-  .nombre-red {
-    font-size: 25px;
-  }
+.nombre-red{
+  transition: 1s;
 }
 .nombre-red:hover {
+  transition: 1s;
   color: white;
 }
 .contenedor-informacion-red {
@@ -325,8 +309,7 @@ body {
   transition: 1s;
 }
 .foto-perfil-inst:hover {
-  width: 110px;
-  height: 110px;
+  transform: scale(1.1);
   border: 1px white solid;
 }
 .foto-perfil-whatsapp {
@@ -336,9 +319,9 @@ body {
   transition: 1s;
 }
 .foto-perfil-whatsapp:hover {
-  width: 180px;
-  height: 180px;
+  transform: scale(1.1);
   border: 1px white solid;
+  transition: 1s;
 }
 .informacion-segunda {
   display: flex;
@@ -387,32 +370,7 @@ body {
   }
 }
 .destacada:hover {
-  width: 160px;
-  height: 240px;
-}
-@media (max-width: 1200px) {
-  .destacada:hover {
-    width: 130px;
-    height: 200px;
-  }
-}
-@media (max-width: 1024px) {
-  .destacada:hover {
-    width: 150px;
-    height: 220px;
-  }
-}
-@media (max-width: 768px) {
-  .destacada:hover {
-    width: 135px;
-    height: 210px;
-  }
-}
-@media (max-width: 576px) {
-  .destacada:hover {
-    width: 110px;
-    height: 170px;
-  }
+  transform: scale(1.08);
 }
 
 /*ENTREGAS*/
