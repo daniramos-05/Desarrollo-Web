@@ -263,7 +263,7 @@ body {
   }
 }
 @media (max-width: 576px) {
-  .logo-red{
+  .logo-red {
     width: 160px;
     height: 160px;
   }
@@ -289,7 +289,7 @@ body {
   transition: 1s;
 }
 @media (max-width: 576px) {
-  .nombre-red{
+  .nombre-red {
     font-size: 25px;
   }
 }
@@ -433,6 +433,27 @@ body {
   gap: 30px;
   border: 2px black solid;
 }
+@media (max-width: 1200px) {
+  .contenedor-ubicacion-horario {
+    flex-direction: column;
+  }
+}
+.imagen-direccion {
+  width: 100%;
+  height: auto;
+  transition: 1s;
+}
+.imagen-direccion:hover {
+  width: 101%;
+  height: auto;
+  transition: 1s;
+}
+@media (max-width: 576px) {
+  .description-direccion {
+  font-size: 14px;
+}
+}
+
 .segunda-parte {
   display: flex;
   align-items: center;
@@ -444,4 +465,9 @@ body {
   border-radius: 10px;
   padding: 10px;
   margin: 20px;
+}
+@media (max-width: 576px) {
+  .contenedor-organizacion {
+    width: 70%;
+  }
 }
