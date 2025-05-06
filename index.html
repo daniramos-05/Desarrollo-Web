@@ -15,6 +15,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>Ventas Itu</title>
     <link rel="stylesheet" href="./css/index.css" />
   </head>
@@ -27,10 +28,10 @@
         </div>
         <i class="icono-menu fa-solid fa-bars"></i>
         <ul class="contenedor-links">
-          <li class="links"><a href="./pages/productos.html">Productos</a></li>
-          <li class="links"><a href="./pages/ubicacion.html">Ubicacion</a></li>
-          <li class="links"><a href="./pages/redes.html">Redes</a></li>
-          <li class="links"><a href="./pages/entregas.html">Entregas</a></li>
+          <li class="links" data-aos="fade-down" data-aos-duration="1100"><a href="./pages/productos.html">Productos</a></li>
+          <li class="links" data-aos="fade-down" data-aos-duration="1200"><a href="./pages/ubicacion.html">Ubicacion</a></li>
+          <li class="links" data-aos="fade-down" data-aos-duration="1300"><a href="./pages/redes.html">Redes</a></li>
+          <li class="links" data-aos="fade-down" data-aos-duration="1400"><a href="./pages/entregas.html">Entregas</a></li>
         </ul>
       </nav>
       <div class="info-inicio">
@@ -47,7 +48,7 @@
         <section class="productos">
           <h2 class="titulo-seccion-productos">Productos</h2>
           <div class="contenedor-productos">
-            <div class="producto">
+            <div class="producto" data-aos="zoom-out-down" data-aos-duration="400">
               <h3 class="titulo-producto">Auriculares...</h3>
               <img
                 class="img-producto"
@@ -63,7 +64,7 @@
               </p>
               <button class="comprar">Comprar</button>
             </div>
-            <div class="producto">
+            <div class="producto" data-aos="zoom-out-down" data-aos-duration="600">
               <h3 class="titulo-producto">Vaper...</h3>
               <img
                 class="img-producto"
@@ -79,7 +80,7 @@
               </p>
               <button class="comprar">Comprar</button>
             </div>
-            <div class="producto">
+            <div class="producto" data-aos="zoom-out-down" data-aos-duration="800">
               <h3 class="titulo-producto">Celular...</h3>
               <img
                 class="img-producto"
@@ -95,7 +96,7 @@
               </p>
               <button class="comprar">Comprar</button>
             </div>
-            <div class="producto">
+            <div class="producto" data-aos="zoom-out-down" data-aos-duration="1000">
               <h3 class="titulo-producto">Vaper...</h3>
               <img
                 class="img-producto"
@@ -111,7 +112,7 @@
               </p>
               <button class="comprar">Comprar</button>
             </div>
-            <div class="producto">
+            <div class="producto" data-aos="zoom-out-down" data-aos-duration="1100">
               <h3 class="titulo-producto">Vaper...</h3>
               <img
                 class="img-producto"
@@ -127,7 +128,7 @@
               </p>
               <button class="comprar">Comprar</button>
             </div>
-            <div class="producto">
+            <div class="producto" data-aos="zoom-out-down" data-aos-duration="1200">
               <h3 class="titulo-producto">Celular...</h3>
               <img
                 class="img-producto"
@@ -143,7 +144,7 @@
               </p>
               <button class="comprar">Comprar</button>
             </div>
-            <div class="producto">
+            <div class="producto" data-aos="zoom-out-down" data-aos-duration="1300">
               <h3 class="titulo-producto">Auriculares...</h3>
               <img
                 class="img-producto"
@@ -159,7 +160,7 @@
               </p>
               <button class="comprar">Comprar</button>
             </div>
-            <div class="producto">
+            <div class="producto" data-aos="zoom-out-down" data-aos-duration="1400">
               <h3 class="titulo-producto">Celular...</h3>
               <img
                 class="img-producto"
@@ -193,6 +194,10 @@
           Copyright © Dani Ramos. Todos los derechos reservados
         </p>
       </div>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init({duration: 1000});
+      </script>
     </footer>
   </body>
 </html>

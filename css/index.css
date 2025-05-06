@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Comic Relief", system-ui;
 }
 body {
   background: #000000;
@@ -155,7 +157,6 @@ body {
 }
 .producto:hover {
   border-color: rgb(31, 173, 18);
-  transform: scale(1.08);
 }
 .titulo-producto {
   font-size: 20px;

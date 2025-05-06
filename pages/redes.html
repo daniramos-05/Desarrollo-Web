@@ -15,6 +15,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>Ventas Itu</title>
     <link rel="stylesheet" href="../css/index.css" />
   </head>
@@ -27,15 +28,15 @@
         </div>
         <i class="icono-menu fa-solid fa-bars"></i>
         <ul class="contenedor-links">
-          <li class="links"><a href="../index.html">Inicio</a></li>
-          <li class="links"><a href="./productos.html">Productos</a></li>
-          <li class="links"><a href="./ubicacion.html">Ubicacion</a></li>
-          <li class="links"><a href="./entregas.html">Entregas</a></li>
+          <li class="links" data-aos="fade-down" data-aos-duration="1100"><a href="../index.html">Inicio</a></li>
+          <li class="links" data-aos="fade-down" data-aos-duration="1200"><a href="./productos.html">Productos</a></li>
+          <li class="links" data-aos="fade-down" data-aos-duration="1300"><a href="./ubicacion.html">Ubicacion</a></li>
+          <li class="links" data-aos="fade-down" data-aos-duration="1400"><a href="./entregas.html">Entregas</a></li>
         </ul>
       </nav>
       <div>
         <div class="contenedor-redes">
-          <div class="contenedor-red">
+          <div class="contenedor-red" data-aos="zoom-out">
             <div class="contenedor-primera-parte">
               <a href="https://www.instagram.com/"><img class="logo-red" src="../assets/Img/logo-ig.webp" alt="" /></a>
               <h2 class="nombre-red">Instagram</h2>
@@ -59,7 +60,7 @@
               </div>
             </div>
           </div>
-          <div class="contenedor-red">
+          <div class="contenedor-red" data-aos="zoom-out" data-aos-duration="1500">
             <div class="contenedor-primera-parte">
               <a href="https://www.tiktok.com/"><img class="logo-red" src="../assets/Img/tiktok.png" alt="" /></a>
               <h2 class="nombre-red">Tik Tok</h2>
@@ -81,7 +82,7 @@
               </div>
             </div>
           </div>
-          <div class="contenedor-red">
+          <div class="contenedor-red" data-aos="zoom-out">
             <div class="contenedor-primera-parte">
               <a href="https://web.whatsapp.com/"><img class="logo-red" src="../assets/Img/whatsapp-logo.webp" alt="" /></a>
               <h2 class="nombre-red">WhatsApp</h2>
@@ -108,6 +109,10 @@
           Copyright © Dani Ramos. Todos los derechos reservados
         </p>
       </div>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init({duration: 1000});
+      </script>
     </footer>
   </body>
 </html>
