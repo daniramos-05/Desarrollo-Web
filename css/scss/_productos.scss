@@ -39,13 +39,9 @@
   }
 }
 .comprar {
-  font-size: 13px;
-  margin: 10px;
+  @extend %boton;
   background-color: $color-2;
   color: $color-3;
-  width: 100px;
-  height: 30px;
-  border-radius: 10px;
   border-color: $color-3;
   transition: 1s;
   &:hover {
