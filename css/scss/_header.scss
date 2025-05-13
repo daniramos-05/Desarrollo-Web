@@ -1,0 +1,13 @@
+/*HEADER*/
+.info-inicio {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    color: $color-3;
+  }
+  .titulo-inicio {
+    font-size: 30px;
+    color: $color-3;
+  }

@@ -1,0 +1,22 @@
+/*ENTREGAS*/
+.contenedor-lugares {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: $color-3;
+    margin: 20px;
+  }
+
+.carrusel-entregas{
+    width: 70%;
+    margin: auto;
+    @media (max-width: 1200px){
+        width: 90%;
+    }
+}
+.carousel.item{
+    h5{
+        font-size: 32px;
+    }
+}

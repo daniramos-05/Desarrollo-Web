@@ -1,0 +1,187 @@
+/*REDES*/
+.contenedor-redes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 60px;
+  margin: 25px;
+}
+@media (max-width: 1200px) {
+  .contenedor-redes {
+    margin: 20px;
+    gap: 50px;
+  }
+}
+.contenedor-red {
+  margin: 10px;
+  border: 2px $color-2 solid;
+  width: 35%;
+}
+@media (max-width: 1200px) {
+  .contenedor-red {
+    margin: 0px;
+    width: 40%;
+  }
+}
+@media (max-width: 1024px) {
+  .contenedor-red {
+    width: 60%;
+  }
+}
+@media (max-width: 768px) {
+  .contenedor-red {
+    width: 70%;
+  }
+}
+@media (max-width: 576px) {
+  .contenedor-red {
+    width: 80%;
+  }
+}
+.contenedor-primera-parte {
+  display: flex;
+  margin: 10px;
+  align-items: center;
+  gap: 150px;
+}
+@media (max-width: 1200px) {
+  .contenedor-primera-parte {
+    gap: 60px;
+  }
+}
+@media (max-width: 1024px) {
+  .contenedor-primera-parte {
+    gap: 120px;
+  }
+}
+@media (max-width: 768px) {
+  .contenedor-primera-parte {
+    gap: 90px;
+  }
+}
+@media (max-width: 576px) {
+  .contenedor-primera-parte {
+    gap: 60px;
+  }
+}
+.logo-red {
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
+  transition: 1s;
+  &:hover {
+    transform: scale(1.05);
+    transition: 1s;
+  }
+}
+@media (max-width: 1200px) {
+  .logo-red {
+    width: 180px;
+    height: 180px;
+  }
+}
+@media (max-width: 576px) {
+  .logo-red {
+    width: 160px;
+    height: 160px;
+  }
+}
+.nombre-red {
+  transition: 1s;
+  &:hover {
+    transition: 1s;
+    color: $color-3;
+  }
+}
+.contenedor-informacion-red {
+  margin: 5px;
+  border: 2px $color-2 solid;
+}
+.nombre-perfil {
+  display: flex;
+  justify-content: center;
+  border: 2px $color-2 solid;
+  font-size: 16px;
+  margin: 20px;
+}
+.nombre-perfil-tiktok {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.informacion-primera {
+  display: flex;
+  gap: 30px;
+  margin: 10px;
+  justify-content: space-around;
+}
+.foto-perfil-inst {
+  width: 100px;
+  height: 100px;
+  border-radius: 60px;
+  transition: 1s;
+  &:hover {
+    transform: scale(1.1);
+    border: 1px $color-3 solid;
+  }
+}
+.foto-perfil-whatsapp {
+  width: 170px;
+  height: 170px;
+  border-radius: 90px;
+  transition: 1s;
+  &:hover {
+    transform: scale(1.1);
+    border: 1px $color-3 solid;
+    transition: 1s;
+  }
+}
+.informacion-segunda {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+@media (max-width: 1200px) {
+  .informacion-segunda {
+    gap: 10px;
+  }
+}
+@media (max-width: 1024px) {
+  .informacion-segunda {
+    margin: 20px;
+    gap: 20px;
+  }
+}
+.destacada {
+  margin: 10px;
+  width: 140px;
+  height: 220px;
+  transition: 1s;
+  &:hover {
+    transform: scale(1.08);
+  }
+}
+@media (max-width: 1200px) {
+  .destacada {
+    width: 120px;
+    height: 190px;
+  }
+}
+@media (max-width: 1024px) {
+  .destacada {
+    width: 140px;
+    height: 210px;
+  }
+}
+@media (max-width: 768px) {
+  .destacada {
+    width: 125px;
+    height: 200px;
+  }
+}
+@media (max-width: 576px) {
+  .destacada {
+    width: 100px;
+    height: 160px;
+  }
+}

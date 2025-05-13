@@ -1,0 +1,56 @@
+/*PRODUCTOS*/
+.titulo-seccion-productos {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  color: $color-3;
+}
+.contenedor-productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 60px;
+  margin: 10px;
+  color: $color-3;
+}
+.producto {
+  display: flex;
+  width: 235px;
+  margin: 10px;
+  padding: 5px;
+  border: 2px $color-3 dashed;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.8s;
+  &:hover {
+    border-color: $color-5;
+  }
+}
+.titulo-producto {
+  font-size: 20px;
+}
+.img-producto {
+  margin: 10px;
+  width: 85%;
+  transition: 1s;
+  &:hover {
+    transform: scale(1.08);
+  }
+}
+.comprar {
+  font-size: 13px;
+  margin: 10px;
+  background-color: $color-2;
+  color: $color-3;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  border-color: $color-3;
+  transition: 1s;
+  &:hover {
+    font-size: 15px;
+    transform: scale(1.1);
+    border-color: $color-6;
+  }
+}

@@ -1,0 +1,45 @@
+/*UBICACION*/
+.contenedor-ubicacion-horario {
+  display: flex;
+  margin: 20px;
+  padding: 10px;
+  gap: 30px;
+  border: 2px $color-2 solid;
+}
+@media (max-width: 1200px) {
+  .contenedor-ubicacion-horario {
+    flex-direction: column;
+  }
+}
+.imagen-direccion {
+  width: 100%;
+  height: auto;
+  transition: 1s;
+  &:hover {
+    width: 101%;
+    height: auto;
+    transition: 1s;
+  }
+}
+@media (max-width: 576px) {
+  .description-direccion {
+    font-size: 14px;
+  }
+}
+.segunda-parte {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.contenedor-organizacion {
+  width: 50%;
+  border: 2px $color-2 solid;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+}
+@media (max-width: 576px) {
+  .contenedor-organizacion {
+    width: 70%;
+  }
+}
