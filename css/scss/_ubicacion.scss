@@ -43,3 +43,19 @@
     width: 70%;
   }
 }
+.contenedor-contactanos{
+    display: flex;
+    justify-content: flex-end;
+}
+.contactanos {
+  background-color: $color-2;
+  color: $color-3;
+  border-color: $color-3;
+  transition: 1s;
+  @extend %boton;
+  &:hover {
+    font-size: 15px;
+    transform: scale(1.1);
+    border-color: $color-6;
+  }
+}
