@@ -63,6 +63,8 @@
     transition: 1s;
     &:hover {
       display: block;
+      right: 0;
+      transition: 1s;
     }
   }
 }

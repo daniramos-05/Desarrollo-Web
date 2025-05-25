@@ -127,6 +127,8 @@ body {
   }
   .contenedor-links:hover {
     display: block;
+    right: 0;
+    transition: 1s;
   }
 }
 
