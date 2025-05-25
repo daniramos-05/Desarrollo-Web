@@ -51,19 +51,18 @@
   @media (max-width: 576px) {
     position: absolute;
     top: 0;
-    right: -500px;
     width: 300px;
     color: $color-3;
     background-color: $color-1;
     height: 100vh;
-    display: flex;
+    display: none;
     flex-direction: column;
     gap: 50px;
     padding-top: 100px;
     align-items: center;
     transition: 1s;
     &:hover {
-      right: 0;
+      display: block;
     }
   }
 }
