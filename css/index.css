@@ -114,12 +114,11 @@ body {
   .contenedor-links {
     position: absolute;
     top: 0;
-    right: -500px;
     width: 300px;
     color: #ffffff;
     background-color: rgba(0, 0, 0, 0.5803921569);
     height: 100vh;
-    display: flex;
+    display: none;
     flex-direction: column;
     gap: 50px;
     padding-top: 100px;
@@ -127,7 +126,7 @@ body {
     transition: 1s;
   }
   .contenedor-links:hover {
-    right: 0;
+    display: block;
   }
 }
 
