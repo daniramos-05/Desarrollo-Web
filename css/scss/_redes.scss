@@ -5,9 +5,7 @@
   justify-content: space-around;
   gap: 60px;
   margin: 25px;
-}
-@media (max-width: 1200px) {
-  .contenedor-redes {
+  @media (max-width: 1200px) {
     margin: 20px;
     gap: 50px;
   }
@@ -16,26 +14,27 @@
   margin: 10px;
   border: 2px $color-2 solid;
   width: 35%;
-}
-@media (max-width: 1200px) {
-  .contenedor-red {
+  @media (max-width: 1500px) {
+    width: 45%;
+  }
+  @media (max-width: 1200px) {
     margin: 0px;
     width: 40%;
   }
-}
-@media (max-width: 1024px) {
-  .contenedor-red {
+  @media (max-width: 1024px) {
     width: 60%;
   }
-}
-@media (max-width: 768px) {
-  .contenedor-red {
+  @media (max-width: 768px) {
     width: 70%;
   }
-}
-@media (max-width: 576px) {
-  .contenedor-red {
+  @media (max-width: 600px) {
+    width: 85%;
+  }
+  @media (max-width: 576px) {
     width: 80%;
+  }
+  @media (max-width: 430px) {
+    width: 100%;
   }
 }
 .contenedor-primera-parte {
@@ -43,24 +42,16 @@
   margin: 10px;
   align-items: center;
   gap: 150px;
-}
-@media (max-width: 1200px) {
-  .contenedor-primera-parte {
+  @media (max-width: 1200px) {
     gap: 60px;
   }
-}
-@media (max-width: 1024px) {
-  .contenedor-primera-parte {
+  @media (max-width: 1024px) {
     gap: 120px;
   }
-}
-@media (max-width: 768px) {
-  .contenedor-primera-parte {
+  @media (max-width: 768px) {
     gap: 90px;
   }
-}
-@media (max-width: 576px) {
-  .contenedor-primera-parte {
+  @media (max-width: 576px) {
     gap: 60px;
   }
 }
@@ -69,21 +60,17 @@
   height: 200px;
   border-radius: 30px;
   transition: 1s;
-  &:hover {
-    transform: scale(1.05);
-    transition: 1s;
-  }
-}
-@media (max-width: 1200px) {
-  .logo-red {
+  @media (max-width: 1200px) {
     width: 180px;
     height: 180px;
   }
-}
-@media (max-width: 576px) {
-  .logo-red {
+  @media (max-width: 576px) {
     width: 160px;
     height: 160px;
+  }
+  &:hover {
+    transform: scale(1.05);
+    transition: 1s;
   }
 }
 .nombre-red {
@@ -140,16 +127,16 @@
   display: flex;
   justify-content: center;
   gap: 60px;
-}
-@media (max-width: 1200px) {
-  .informacion-segunda {
+  @media (max-width: 1200px) {
     gap: 10px;
   }
-}
-@media (max-width: 1024px) {
-  .informacion-segunda {
+  @media (max-width: 1024px) {
     margin: 20px;
     gap: 20px;
+  }
+  @media (max-width: 430px) {
+    margin: 10px;
+    gap: 10px;
   }
 }
 .destacada {
@@ -157,31 +144,43 @@
   width: 140px;
   height: 220px;
   transition: 1s;
-  &:hover {
-    transform: scale(1.08);
-  }
-}
-@media (max-width: 1200px) {
-  .destacada {
+  @media (max-width: 1400px) {
     width: 120px;
     height: 190px;
   }
-}
-@media (max-width: 1024px) {
-  .destacada {
+  @media (max-width: 1200px) {
+    width: 120px;
+    height: 190px;
+  }
+  @media (max-width: 1105px) {
+    width: 110px;
+    height: 170px;
+  }
+  @media (max-width: 1024px) {
     width: 140px;
     height: 210px;
   }
-}
-@media (max-width: 768px) {
-  .destacada {
+  @media (max-width: 855px) {
+    width: 120px;
+    height: 190px;
+  }
+  @media (max-width: 768px) {
     width: 125px;
     height: 200px;
   }
-}
-@media (max-width: 576px) {
-  .destacada {
+  @media (max-width: 665px) {
     width: 100px;
     height: 160px;
+  }
+  @media (max-width: 576px) {
+    width: 90px;
+    height: 150px;
+  }
+  @media (max-width: 430px) {
+    width: 85px;
+    height: 145px;
+  }
+  &:hover {
+    transform: scale(1.08);
   }
 }

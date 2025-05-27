@@ -96,6 +96,22 @@ body {
   font-size: 50px;
   color: rgb(26, 134, 17);
 }
+@media (max-width: 720px) {
+  .titulo-principal {
+    font-size: 35px;
+  }
+  .titulo-principal:hover {
+    font-size: 40px;
+  }
+}
+@media (max-width: 600px) {
+  .titulo-principal {
+    font-size: 25px;
+  }
+  .titulo-principal:hover {
+    font-size: 30px;
+  }
+}
 @media (max-width: 576px) {
   .titulo-principal {
     font-size: 30px;
@@ -207,19 +223,23 @@ body {
   gap: 60px;
   margin: 25px;
 }
-
 @media (max-width: 1200px) {
   .contenedor-redes {
     margin: 20px;
     gap: 50px;
   }
 }
+
 .contenedor-red {
   margin: 10px;
   border: 2px rgb(0, 0, 0) solid;
   width: 35%;
 }
-
+@media (max-width: 1500px) {
+  .contenedor-red {
+    width: 45%;
+  }
+}
 @media (max-width: 1200px) {
   .contenedor-red {
     margin: 0px;
@@ -236,18 +256,28 @@ body {
     width: 70%;
   }
 }
+@media (max-width: 600px) {
+  .contenedor-red {
+    width: 85%;
+  }
+}
 @media (max-width: 576px) {
   .contenedor-red {
     width: 80%;
   }
 }
+@media (max-width: 430px) {
+  .contenedor-red {
+    width: 100%;
+  }
+}
+
 .contenedor-primera-parte {
   display: flex;
   margin: 10px;
   align-items: center;
   gap: 150px;
 }
-
 @media (max-width: 1200px) {
   .contenedor-primera-parte {
     gap: 60px;
@@ -268,17 +298,13 @@ body {
     gap: 60px;
   }
 }
+
 .logo-red {
   width: 200px;
   height: 200px;
   border-radius: 30px;
   transition: 1s;
 }
-.logo-red:hover {
-  transform: scale(1.05);
-  transition: 1s;
-}
-
 @media (max-width: 1200px) {
   .logo-red {
     width: 180px;
@@ -291,6 +317,11 @@ body {
     height: 160px;
   }
 }
+.logo-red:hover {
+  transform: scale(1.05);
+  transition: 1s;
+}
+
 .nombre-red {
   transition: 1s;
 }
@@ -353,7 +384,6 @@ body {
   justify-content: center;
   gap: 60px;
 }
-
 @media (max-width: 1200px) {
   .informacion-segunda {
     gap: 10px;
@@ -365,20 +395,35 @@ body {
     gap: 20px;
   }
 }
+@media (max-width: 430px) {
+  .informacion-segunda {
+    margin: 10px;
+    gap: 10px;
+  }
+}
+
 .destacada {
   margin: 10px;
   width: 140px;
   height: 220px;
   transition: 1s;
 }
-.destacada:hover {
-  transform: scale(1.08);
+@media (max-width: 1400px) {
+  .destacada {
+    width: 120px;
+    height: 190px;
+  }
 }
-
 @media (max-width: 1200px) {
   .destacada {
     width: 120px;
     height: 190px;
+  }
+}
+@media (max-width: 1105px) {
+  .destacada {
+    width: 110px;
+    height: 170px;
   }
 }
 @media (max-width: 1024px) {
@@ -387,18 +432,40 @@ body {
     height: 210px;
   }
 }
+@media (max-width: 855px) {
+  .destacada {
+    width: 120px;
+    height: 190px;
+  }
+}
 @media (max-width: 768px) {
   .destacada {
     width: 125px;
     height: 200px;
   }
 }
-@media (max-width: 576px) {
+@media (max-width: 665px) {
   .destacada {
     width: 100px;
     height: 160px;
   }
 }
+@media (max-width: 576px) {
+  .destacada {
+    width: 90px;
+    height: 150px;
+  }
+}
+@media (max-width: 430px) {
+  .destacada {
+    width: 85px;
+    height: 145px;
+  }
+}
+.destacada:hover {
+  transform: scale(1.08);
+}
+
 /*ENTREGAS*/
 .contenedor-lugares {
   display: flex;

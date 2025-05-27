@@ -37,6 +37,18 @@
     font-size: 50px;
     color: $color-4;
   }
+  @media (max-width: 720px) {
+    font-size: 35px;
+    &:hover {
+      font-size: 40px;
+    }
+  }
+  @media (max-width: 600px) {
+    font-size: 25px;
+    &:hover {
+      font-size: 30px;
+    }
+  }
   @media (max-width: 576px) {
     font-size: 30px;
     &:hover {
